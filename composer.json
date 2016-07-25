@@ -1,0 +1,25 @@
+{
+    "name": "neomusic/laravel-section-error-views",
+    "description": "Multi section error handle views",
+    "authors": [
+        {
+            "name": "Giuseppe Aremare - NeoMusic",
+            "email": "g.aremare@palmabit.com"
+        }
+    ],
+    "keywords": [
+        "exception",
+        "multi-section",
+        "backend-error-views",
+        "frontend-error-views",
+        "laravel"
+    ],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "5.*"
+    }
+    "autoload": {
+        "psr-4": {
+            "NeoMusic\\LaravelSectionErrorViews\\": "src/"
+        }
+}
