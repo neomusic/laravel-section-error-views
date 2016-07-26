@@ -40,7 +40,7 @@ abstract class SectionHandler extends ExceptionHandler
 
   public function render($request, Exception $e)
   {
-    $this->sectionRender();
+    $this->sectionRender($request, $e);
     return parent::render($request, $e);
   }
 
